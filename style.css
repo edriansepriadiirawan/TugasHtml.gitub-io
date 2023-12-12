@@ -1,0 +1,121 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-y: auto; /* Menambahkan scrollbar vertikal jika konten lebih panjang dari tinggi viewport */
+}
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+main {
+  padding: 20px 0;
+}
+
+.blog-post {
+  background-color: whitesmoke;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 2, 2, 5);
+}
+
+.blog-post h2 {
+  color: #333;
+}
+
+.date {
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.read-more {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.read-more:hover {
+  background-color: #555;
+}
+
+footer {
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+.blog-post {
+  display: flex;
+  align-items: center;
+  max-width:1000px; /* Sesuaikan dengan lebar maksimum yang diinginkan */
+  margin: 12px auto; /* Agar kotak tetap berada di tengah */
+}
+
+.post-image {
+  width: 150px; /* sesuaikan dengan ukuran yang diinginkan */
+  height: auto;
+  margin-right: 20px;
+  border-radius: 8px; /* memberikan sudut melengkung pada gambar */
+}
+
+.post-content {
+  flex: 1;
+}
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Untuk memusatkan item di tengah */
+}
+
+.skill-box {
+  flex: 0 0 calc(50% - 20px);
+  margin: 0 10px 20px; /* Memberikan sedikit margin di sekitar setiap kotak */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden; /* Menyembunyikan overflow dari gambar */
+  display: flex;
+  flex-direction: row; /* Menentukan arah Flexbox menjadi horizontal (default) */
+}
+
+.skill-image {
+  width: auto;
+  height: 100px;
+  display: flex;
+}
+
+.skill-content {
+  flex: 1;
+  padding: 20px;
+}
